@@ -1,6 +1,6 @@
 ### FrontEnd developer, Love fitness. 
 
-- 💻 Proficient in react family bucket
+- 💻 Rich experience in react and react native
 
 - ❤️ Interested in and learning Android
 
