@@ -1,4 +1,4 @@
-### FrontEnd developer, Love fitness. 
+### FrontEnd engineer, Love fitness. 
 
 - 💻 Rich experience in react and react native
 
