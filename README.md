@@ -1,5 +1,4 @@
-## Hello there, I'm LiuHui
-### I'm the FrontEnd engineer, Love fitness
+## I'm the FrontEnd engineer, Love fitness
 
 ### 🚀 About
 - 👀 I'm currently focusing on **web**
