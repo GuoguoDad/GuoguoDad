@@ -314,4 +314,4 @@ yarn husky add .husky/commit-msg 'yarn commitlint --edit "$1"'
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/8f8ef9c6510b46b2887aeacd111ff962.png)
 
 # 参考这里
-[react-template-vite](https://github.com/GuoguoDad/react-template-vite)
+https://github.com/GuoguoDad/react-template-vite
