@@ -23,6 +23,6 @@
 
 <br/>
 <a href="https://github.com/GuoguoDad">
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=GuoguoDad&theme=algolia&show_icons=true&hide=prs&hide_border=true" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GuoguoDad&theme=algolia&layout=compact&hide_border=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GuoguoDad&theme=algolia&layout=compact&hide_border=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=GuoguoDad&theme=algolia&show_icons=true&hide=prs&hide_border=true" />
 </a>
