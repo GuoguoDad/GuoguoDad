@@ -1,7 +1,30 @@
-### FrontEnd engineer, Love fitness. 
+## Hello there, I'm LiuHui
+### I'm the FrontEnd engineer, Love fitness
 
-- 💻 Rich experience in react and react native
+### 🚀 About
+- 👀 I'm currently focusing on **web**
+- ⚙️ I use daily: `react`, `react-native`
+- 🔭 I'm currently learning **Android**
+- **I** ❤️ **to think, learn, code, and fitness**
 
-- ❤️ Interested in and learning Android
+<h3> 🛠 &nbsp;Tech Stack</h3>
 
-[![GitHub followers](https://github-readme-stats.vercel.app/api?username=GuoguoDad&show_icons=true&bg_color=60,EEB53F,B0245C&title_color=fff&text_color=fff&hide=prs&icon_color=fff&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
+- 💻 &nbsp;
+  ![React](https://img.shields.io/badge/-React-333333?style=flat&logo=react)
+  ![React Native](https://img.shields.io/badge/React_Native-20232A?logo=react&logoColor=61DAFB)
+  ![Webpack](https://img.shields.io/badge/-webpack-2B3A42?logo=webpack&logoColor=75AFCC)
+- 🛢 &nbsp;
+  ![Node.js](https://img.shields.io/badge/-Node.js-333333?style=flat&logo=node.js)
+  ![MySQL](https://img.shields.io/badge/-MySQL-333333?style=flat&logo=mysql)
+- ⚙️ &nbsp;
+  ![GitHub](https://img.shields.io/badge/-GitHub-333333?style=flat&logo=github)
+  ![Markdown](https://img.shields.io/badge/-Markdown-333333?style=flat&logo=markdown)
+- 🔧 &nbsp;
+  ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC)
+
+<br/>
+
+<a href="https://github.com/AVS1508">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=GuoguoDad&theme=buefy&show_icons=true&hide=prs&hide_border=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GuoguoDad&theme=buefy&layout=compact&hide_border=true" />
+</a>
