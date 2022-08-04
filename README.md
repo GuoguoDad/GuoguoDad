@@ -1,4 +1,4 @@
-## I'm the FrontEnd engineer, Love fitness
+## FrontEnd engineer, Love fitness
 
 ### 🚀 About
 - 👀 I'm currently focusing on **web**
