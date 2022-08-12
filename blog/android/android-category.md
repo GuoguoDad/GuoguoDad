@@ -2,7 +2,7 @@
 ## 前言
 网购已经成为我们生活的一般，经常用的京东、淘宝等app，接到一个需求，开发电商app的分类页，这里写了个demo，高仿京东的分类页，我们看下效果
 
-<center><img src="../../../images/category.png"/></center>
+<center><img src="../../images/category.png"/></center>
 
 ## 思路
     顶部： 封住一个组件，这里不介绍

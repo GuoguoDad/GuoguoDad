@@ -9,7 +9,7 @@
  
 
 ## 效果
-<center><img src="../../../images/android-waterfall.png" width="350"/></center>
+<center><img src="../../images/android-waterfall.png" width="350"/></center>
 
 ## 布局
 ```

@@ -3,7 +3,7 @@
 ## 前言
 在之前的react-native项目中，有瀑布流列表的需求，查阅了很多资料、网上看了很多种实现，其中看到了一个思路：用ScrollView嵌套VirtualizedList实现，如图红色表示ScrollView,蓝色表示VirtualizedList，看上去是一个列表，实则是3个列表，
 VirtualizedList的滚动事件全部委托给ScrollView进行处理
-<center><img src="../../../images/waterfall.png"/></center>
+<center><img src="../../images/waterfall.png"/></center>
 
 
 ## 代码
