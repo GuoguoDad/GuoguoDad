@@ -232,4 +232,13 @@ private fun scrollTop(position: Int) {
 
 ## 源码
     https://github.com/GuoguoDad/jd_mall
+
+
+## 结束语
+- 👀 目前专注于前端
+- ⚙️ 在react、react-native开发方面有丰富的经验
+- 🔭 最近在学习安卓，有自己的开源安卓项目，集成react-native热更新功能
+- 我❤️ 思考、学习、编码和健身
+- 如果文章对您有帮助，三连支持一下～O(∩_∩)O谢谢！
+
     

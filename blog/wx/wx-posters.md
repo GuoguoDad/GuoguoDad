@@ -1,21 +1,25 @@
-# <center> 5分钟实现微信小程序海报页</center>
+ <center> <h1>5分钟实现微信小程序海报页</h1></center>
 
-## 前言
-    随着业务需求的不多发展，小程序开发必不可少，而经常遇到需要用canvas画海报，如何我们裸用canvas的api去画海报，在可读性、后期维护性方面比较差
-    给大家推荐一个非常好用画小程序海报的库，让canvas的api下沉下去，开发者不用关心api，专心于业务即可。
+##  备受青睐
+- 不用安装。微信小程序是一种不需要安装即可使用的应用
+- 跨平台性。一份代码即可多个平台使用
+- 推广容易。用户扫一扫或搜一下即可打开应用
 
-## 效果
-![在这里插入图片描述](https://img-blog.csdnimg.cn/6b26a7013c2e452faf14ceb1c98f9148.png#pic_center)
+##  推荐使用
+随着业务需求的不多发展，小程序开发必不可少，而经常遇到需要用canvas画海报，如何我们裸用canvas的api去画海报，在可读性、后期维护性方面比较差，给大家推荐一个非常好用画小程序海报的库，让canvas的api下沉下去，开发者不用关心api，专心于业务即可。
+
+##  案例效果
+<img src="https://img-blog.csdnimg.cn/34ff4c9f59514f6aa0578cea14668b66.png#pic_center" width="400" />
 
 ## 安装依赖
-```
+```javascript
 1、npm i wx-canvas-2d -S
 
 2、微信小程序开发者工具构建一下npm (工具 -> 构建 npm)
 ```
 
 ## 画海报
-```
+```javascript
 import {
   WxCanvas2d,
   Text,
@@ -64,7 +68,7 @@ WxCanvas2d.use(Debugger)
         },
         {
           type: Text,
-          text: '南京苏宁易购孝陵卫店南京苏宁易购孝陵卫店',
+          text: '南京xxxx孝陵卫店南京xxxx孝陵卫店',
           width: 320,
           x: 50,
           y: 680,
@@ -87,7 +91,18 @@ WxCanvas2d.use(Debugger)
     })
 ```
 
+## 总结
+- 提升开发效率，可维护性搞
+- 思想非常值得参考，canvas api封装在库里，开发海报只需要配置，计算坐标、大小、位置即可
+
+
 ## 结束语
-   思想非常值得参考，canvas api封装在库里，开发海报只需要配置，计算坐标、大小、位置
-   文档: https://www.kancloud.cn/kiccer/wx-canvas-2d/2030243
+- 👀 目前专注于前端
+- ⚙️ 在react、react-native开发方面有丰富的经验
+- 🔭 最近在学习安卓，有自己的开源安卓项目，集成react-native热更新功能
+- 我❤️ 思考、学习、编码和健身
+- 如果文章对您有帮助，三连支持一下～O(∩_∩)O谢谢！
+
+	
+	
 
