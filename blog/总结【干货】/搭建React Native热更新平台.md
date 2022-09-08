@@ -1,5 +1,5 @@
 
-# 搭建React Native热更新平台的详细过程
+# 搭建React Native热更新平台的详细过程
 
 ##### 目录
 
@@ -18,7 +18,7 @@
 
 那么，热更新和发版更新有什么不同呢？为什么热更新比发版更新快这么多呢？下面是这两种更新方式的原理对比图。
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d75f2749bd684c508a9f122a8738f212~tplv-k3u1fbpfcp-zoom-1.image)
+<img src="../images/11.png" />
 
 发版更新，指的是你把 React Native App，当作 Android App 和 iOS App，按照 Android、iOS 上架流程，通过各自的应用商店进行更新。通常每个 Native App 都会有一个自己的上架节奏，可能是两周，也可能是 4 周。此外，从提交应用商店到审核通过，也需要等上几天时间。甚至，即便新版本上架了，用户更新到最新版本也需要一个过程，可能需要一个月的时间，新版本才能覆盖到 90% 的用户。
 
@@ -53,7 +53,7 @@
 
 不过，使用npm start 的热更新方案不太靠谱，那有没有靠谱点的热更新方案呢？有，那接下来我们看另一种比较简单的热更新方案：CDN 热更新方案。
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9dd67bc5de5045efbec92f80816b44e2~tplv-k3u1fbpfcp-zoom-1.image)
+<img src="../images/12.png" />
 
 在 npm start 方案中，Metor Server 提供了代码打包和 Bundle 下发的功能。而在 CDN 方案中，代码打包是通过 react-native bundle 命令提供的，Bundle 下发的能力是通过 CDN 提供的。
 
@@ -88,8 +88,7 @@ https://static001.geekbang.org/resource/rn/index.bundle
 但是对于大流量业务，我并不推荐你用纯 CDN 方案，为什么呢？因为纯 CDN 方案，会存在几分钟的更新延迟的问题。在小流量业务中，这种几分钟的更新延迟不是什么问题，但是对于大流量业务来说，如果线上出现了一个重大 BUG，需要等几分钟才能完全回滚，那么对用户或者收入的影响会很大。
 
 下图演示了CDN 方案的时序图：
-
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d1be498aff0b4222b229264c1d5b4809~tplv-k3u1fbpfcp-zoom-1.image)
+<img src="../images/13.png" />
 
 上述时序图中，涉及 React Native App、CDN 边缘节点和 OSS 源站，以及 index.bundle 包文件的两个版本。旧版本包是绿色的，新版包是蓝色的。将旧版本更新为新版本的本质是：删除 CDN 中缓存的旧版资源，当 CDN 中没有缓存了，这时来自用户的请求才不会命中 CDN 中的缓存，而是到 OSS 上拉取最新的资源，返回给 React Native App。
 
@@ -101,7 +100,7 @@ https://static001.geekbang.org/resource/rn/index.bundle
 
 解决方案就是多发一次版本请求：既然上千个节点 CDN 更新有延迟，那么就自己搭建一个版本服务，资源依旧上传 CDN，然后用我们自己的版本服务来控制更新。此时，热更新的时序图变成如下：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ccf94ee8cee547c2a6eef36c1ae738bf~tplv-k3u1fbpfcp-zoom-1.image)
+<img src="../images/14.png" />
 
 增加一个版本服务后，可以看到整体流程发生了一些变化。纯 CDN 方案的更新方式采用的是覆盖更新，版本服务方案会提前告知更新，从而保持代码的最新。那接下来，我们梳理下这种方案的完整流程。
 
@@ -128,7 +127,7 @@ https://static001.geekbang.org/resource/rn/index.bundle
 
 依据多年的经验，我们设计了一张热更新平台的全貌图。
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9082e81178f94e9193636a064d81e040~tplv-k3u1fbpfcp-zoom-1.image)
+<img src="../images/15.png" />
 
 可以看到，热更新平台整体上包括以下几个部分：
 
