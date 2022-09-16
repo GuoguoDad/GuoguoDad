@@ -27,3 +27,7 @@
 
 [comment]: <> (<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GuoguoDad&theme=buefy&layout=compact&hide_border=true" />)
 </a>
+
+<a href="https://codepen.io/GuoguoDad">
+  <img align="left" alt="codepen" width="20px" src="./blog/images/codepen.jpeg" />
+</a>
