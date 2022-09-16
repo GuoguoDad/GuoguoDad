@@ -29,5 +29,5 @@
 </a>
 
 <a href="https://codepen.io/GuoguoDad">
-  <img align="left" alt="codepen" width="20px" src="./blog/images/codepen.jpeg" />
+  <img align="left" alt="codepen" width="20px" src="https://raw.githubusercontent.com/anuraghazra/anuraghazra/master/assets/codesandbox.svg" />
 </a>
