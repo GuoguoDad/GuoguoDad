@@ -1,5 +1,25 @@
 ## FrontEnd engineer, Love fitness
 
+[comment]: <> (<a href="https://blog.csdn.net/DuoguoDad">)
+
+[comment]: <> (  <img align="left" alt="CSDN" width="28px" src="https://guoguodad.netlify.app/assets/images/csdn.jpeg" />)
+
+[comment]: <> (</a>)
+
+[comment]: <> (<a href="https://juejin.cn/user/1636507895210350">)
+
+[comment]: <> (  <img align="left" alt="掘金" width="28px" src="https://guoguodad.netlify.app/assets/images/juejin.jpeg" />)
+
+[comment]: <> (</a>)
+
+[comment]: <> (<a href="https://codepen.io/GuoguoDad">)
+
+[comment]: <> (  <img align="left" alt="codepen" width="28px" src="https://guoguodad.netlify.app/assets/images/codepen.jpeg" />)
+
+[comment]: <> (</a>)
+
+[comment]: <> (<br/>)
+
 ### 🚀 About
 - 👀 I'm currently focusing on **web**
 - ⚙️ I use daily: `react`, `react-native`
@@ -28,6 +48,4 @@
 [comment]: <> (<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GuoguoDad&theme=buefy&layout=compact&hide_border=true" />)
 </a>
 
-<a href="https://codepen.io/GuoguoDad">
-  <img align="left" alt="codepen" width="20px" src="https://guoguodad.netlify.app/assets/images/codepen.jpeg" />
-</a>
+
