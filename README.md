@@ -3,7 +3,7 @@
 ### 🚀 About
 - 👀 I'm currently focusing on **web**
 - ⚙️ I use daily: `react`, `react-native`
-- 🔭 I'm currently learning **Android**
+- 🔭 I'm currently learning **Android**、**Flutter**
 - **I** ❤️ **to think, learn, code, and fitness**
 
 <a href="https://github.com/GuoguoDad">
